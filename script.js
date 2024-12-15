@@ -207,6 +207,7 @@ function showModel(index) {
         },
         function(error) {
             console.error('模型加载出错:', error);
+            console.log('请检查模型文件路径是否正确');
         }
     );
 }
@@ -368,6 +369,7 @@ function initSpecialModel() {
         },
         function(error) {
             console.error('模型加载出错:', error);
+            console.log('请检查模型文件路径是否正确');
         }
     );
     
